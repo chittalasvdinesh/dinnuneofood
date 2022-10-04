@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?&family=Poppins:wght@400;700&display=swap');
+
+
+
+.header-section{
+   
+    padding-top: 35px;
+}
+.navbar{
+    font-family: Poppins;
+    font-weight: 400;
+}
+
+.nav-title{
+    font-size: 14px;
+}
+
+.navigation-links a{
+    font-size: 18px;
+    color: #ffffff !important;
+}

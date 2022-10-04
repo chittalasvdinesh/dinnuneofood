@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?&family=Poppins:wght@400;700&display=swap');
+
+*{
+  font-family: Poppins;
+}
+
+.bg-container{
+    background-image: url('/public/Images/Header-bg.png');
+    /* height: 500px; */
+  }
+
+  .banner-section{
+    padding-top: 100px;
+    padding-bottom: 50px;
+   
+  }
+
+  .banner-section h2{
+    font-size: 65px;
+  }
+
+
+  .banner-section p{
+    font-size: 36px;
+  }
+
+  .search-box-container{
+   
+  }
+
+  .card-section {
+    margin-top: 100px;
+    padding: 10px;
+  }
+
+  .card-item{
+    max-width: 560px;
+    overflow: hidden;
+    height: 280px;
+    /* margin-right: 20px; */
+    overflow: hidden;
+    border-radius: 15px;
+  }
+
+  .card-img{
+    width: 100%!important;
+    height: 190px!important;
+     object-fit: cover;
+    /* background-size: cover; */
+  }
+
+  .card-heading{
+    font-size: 18px;
+    font-weight: 500;
+    color: #282828;
+  }
+  .card-description{
+    font-size: 16px;
+    font-weight: 300;
+    color: #282828;
+  }
+
+  .collection-card{
+    height: 420px;
+    background-size: cover;
+  }
+
+  .see-more-card{
+    height: 87.5px;
+  }
+
+  .accordion-item{
+    border-radius: 20px;
+  }
+
+
+  .footer-section{
+    background:rgba(248, 248, 248, 1);
+  }
+
+  /* .footer-bowl{
+    background: rgba(40, 40, 40, 1);
+
+  } */
+
+  .footer-section h4{
+    font-size: 16px;
+
+  }
+
+  ul li{
+    list-style-type: none;
+  }
+  li a{
+    text-decoration: none;
+    color: rgba(40, 40, 40, 0.68) !important;
+  }
+
+  /* .social-link-item{
+    width: 24px;
+    height: 24px;
+  } */
+
+ .social-links>div>div{
+         background-color: #000000;
+  }
+
+  @media screen and (max-width:767px) {
+    
+  .banner-section h2{
+    font-size: 35px;
+  }
+
+
+  .banner-section p{
+    font-size: 18px;
+  }
+    
+  }

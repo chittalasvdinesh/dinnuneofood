@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+
+.bg-container{
+  background-image: url('/public/Images/Header-bg.png');
+  background-size: cover;
+  height: 500px;
+}
